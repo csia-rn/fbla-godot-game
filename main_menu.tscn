@@ -42,10 +42,10 @@ text = "Exit"
 
 [node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1399339508]
 layout_mode = 0
-offset_left = 70.0
-offset_top = 181.0
-offset_right = 1842.0
-offset_bottom = 272.0
+offset_left = 53.0
+offset_top = 178.0
+offset_right = 1848.0
+offset_bottom = 290.0
 bbcode_enabled = true
 text = "[wave amp=30.0 freq=7.0 connected=1][rainbow freq=1.4 sat=0.8 val=0.8 speed=1.0][i][font_size=65]★★★THS Slap Team Management Sim (TSTMS)★★★™©®[/font_size][/i][/rainbow][/wave]"
 fit_content = true
