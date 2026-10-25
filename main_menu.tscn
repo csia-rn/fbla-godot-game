@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cmsha1ratyv0q"]
 
 [ext_resource type="Texture2D" uid="uid://cxtrfp2ujv7ss" path="res://front_facing_businessman_soyjak.png" id="1_06t4h"]
+[ext_resource type="Texture2D" uid="uid://bytkvibhq232p" path="res://Go Mooks.png" id="2_7vrkn"]
 
 [node name="Main Menu" type="Control" unique_id=281104599]
 layout_mode = 3
@@ -12,16 +13,18 @@ grow_vertical = 2
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=742603307]
 layout_mode = 0
-offset_right = 1184.0
-offset_bottom = 678.0
+offset_right = 1927.0
+offset_bottom = 1087.0
 color = Color(0, 0, 0, 1)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=801136358]
-layout_mode = 0
-offset_left = 796.0
-offset_top = 484.0
-offset_right = 1045.0
-offset_bottom = 589.0
+layout_mode = 1
+offset_left = 698.0
+offset_top = 500.0
+offset_right = 921.0
+offset_bottom = 601.0
+scale = Vector2(2.13, 2.13)
+offset_transform_scale = Vector2(1.63, 1.63)
 alignment = 1
 
 [node name="Play" type="Button" parent="VBoxContainer" unique_id=769267134]
@@ -39,19 +42,20 @@ text = "Exit"
 
 [node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1399339508]
 layout_mode = 0
-offset_left = -13.0
-offset_top = 138.0
-offset_right = 1154.0
-offset_bottom = 225.0
+offset_left = 70.0
+offset_top = 181.0
+offset_right = 1842.0
+offset_bottom = 272.0
 bbcode_enabled = true
-text = "[wave amp=30.0 freq=7.0 connected=1][rainbow freq=1.4 sat=0.8 val=0.8 speed=1.0][i][font_size=40]★★★FBLA Slap Team Management Sim (FSTMS)★★★™©®[/font_size][/i][/rainbow][/wave]"
+text = "[wave amp=30.0 freq=7.0 connected=1][rainbow freq=1.4 sat=0.8 val=0.8 speed=1.0][i][font_size=65]★★★THS Slap Team Management Sim (TSTMS)★★★™©®[/font_size][/i][/rainbow][/wave]"
 fit_content = true
 autowrap_mode = 0
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="FrontFacingBusinessmanSoyjak" type="Sprite2D" parent="." unique_id=987198420]
-position = Vector2(261, 488)
+position = Vector2(373, 835.00006)
+scale = Vector2(1.545, 1.545)
 texture = ExtResource("1_06t4h")
 
 [node name="Label" type="Label" parent="." unique_id=1318595147]
@@ -59,3 +63,8 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 text = "✡"
+
+[node name="GoMooks" type="Sprite2D" parent="." unique_id=646455305]
+position = Vector2(1605, 889.00006)
+scale = Vector2(0.63, 0.63)
+texture = ExtResource("2_7vrkn")
