@@ -2,6 +2,8 @@
 
 [ext_resource type="Script" uid="uid://bon4cabp57que" path="res://Scripts/front_end/training.gd" id="1_3cwri"]
 [ext_resource type="Script" uid="uid://tnh5oeawx0v8" path="res://Scripts/front_end/upgrade.gd" id="2_p4frh"]
+[ext_resource type="Script" uid="uid://biwb4f3v0ya76" path="res://Scripts/front_end/shop.gd" id="3_sfxjf"]
+[ext_resource type="Script" uid="uid://dnc4sjygft2jm" path="res://Scripts/front_end/match.gd" id="4_dpvao"]
 
 [node name="Control" type="Control" unique_id=417365266]
 layout_mode = 3
@@ -33,10 +35,13 @@ script = ExtResource("2_p4frh")
 [node name="Shop" type="Button" parent="BoxContainer" unique_id=433287034]
 layout_mode = 2
 text = "Item Shop"
+script = ExtResource("3_sfxjf")
 
 [node name="Match" type="Button" parent="BoxContainer" unique_id=1642476694]
 layout_mode = 2
 text = "Next match"
+script = ExtResource("4_dpvao")
 
 [connection signal="pressed" from="BoxContainer/Training" to="BoxContainer/Training" method="_on_pressed"]
 [connection signal="pressed" from="BoxContainer/Upgrade" to="BoxContainer/Upgrade" method="_on_pressed"]
+[connection signal="pressed" from="BoxContainer/Shop" to="BoxContainer/Shop" method="_on_pressed"]
