@@ -1,9 +1,8 @@
 [gd_scene format=3 uid="uid://cmsha1ratyv0q"]
 
 [ext_resource type="Script" uid="uid://b8dfqwi7tw761" path="res://Scripts/front_end/play.gd" id="1_1ehe0"]
-[ext_resource type="Texture2D" uid="uid://cxtrfp2ujv7ss" path="res://Assets/front_facing_businessman_soyjak.png" id="1_48xlc"]
-[ext_resource type="Texture2D" uid="uid://bytkvibhq232p" path="res://Assets/Go Mooks.png" id="2_1ehe0"]
 [ext_resource type="Script" uid="uid://co0t2v036fvx7" path="res://Scripts/Backend/Quit.cs" id="2_ce3w2"]
+[ext_resource type="FontFile" uid="uid://dvxde87fjkrad" path="res://Assets/LatinCondensed.ttf" id="3_n45e2"]
 
 [node name="Main Menu" type="Control" unique_id=281104599]
 layout_mode = 3
@@ -21,11 +20,10 @@ color = Color(0, 0, 0, 1)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=801136358]
 layout_mode = 1
-offset_left = 698.0
-offset_top = 500.0
-offset_right = 921.0
-offset_bottom = 601.0
-scale = Vector2(2.13, 2.13)
+offset_left = 667.0
+offset_top = 536.0
+offset_right = 1276.0
+offset_bottom = 760.0
 offset_transform_scale = Vector2(1.63, 1.63)
 alignment = 1
 
@@ -46,31 +44,26 @@ script = ExtResource("2_ce3w2")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1399339508]
 layout_mode = 0
-offset_left = 53.0
-offset_top = 178.0
-offset_right = 1848.0
-offset_bottom = 290.0
+offset_left = -4.0
+offset_top = 153.0
+offset_right = 1917.0
+offset_bottom = 433.0
+theme_override_fonts/normal_font = ExtResource("3_n45e2")
+theme_override_fonts/bold_font = ExtResource("3_n45e2")
+theme_override_fonts/bold_italics_font = ExtResource("3_n45e2")
+theme_override_fonts/italics_font = ExtResource("3_n45e2")
+theme_override_fonts/mono_font = ExtResource("3_n45e2")
 bbcode_enabled = true
-text = "[wave amp=30.0 freq=7.0 connected=1][rainbow freq=1.4 sat=0.8 val=0.8 speed=1.0][i][font_size=65]★★★THS Slap Team Management Sim (TSTMS)★★★™©®[/font_size][/i][/rainbow][/wave]"
+text = "[wave amp=30.0 freq=7.0 connected=1][rainbow freq=1.4 sat=0.8 val=0.8 speed=1.0][i][font_size=200]★★★ SLAP GODS★★★[/font_size][/i][/rainbow][/wave]"
 fit_content = true
 autowrap_mode = 0
 horizontal_alignment = 1
 vertical_alignment = 1
-
-[node name="FrontFacingBusinessmanSoyjak" type="Sprite2D" parent="." unique_id=987198420]
-position = Vector2(373, 835.00006)
-scale = Vector2(1.545, 1.545)
-texture = ExtResource("1_48xlc")
 
 [node name="Label" type="Label" parent="." unique_id=1318595147]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 text = "✡"
-
-[node name="GoMooks" type="Sprite2D" parent="." unique_id=646455305]
-position = Vector2(1605, 889.00006)
-scale = Vector2(0.63, 0.63)
-texture = ExtResource("2_1ehe0")
 
 [connection signal="pressed" from="VBoxContainer/Play" to="VBoxContainer/Play" method="_on_pressed"]
