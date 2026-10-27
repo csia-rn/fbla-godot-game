@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cmsha1ratyv0q"]
 
+[ext_resource type="Script" uid="uid://b8dfqwi7tw761" path="res://Scenes/play.gd" id="1_1ehe0"]
 [ext_resource type="Texture2D" uid="uid://cxtrfp2ujv7ss" path="res://Assets/front_facing_businessman_soyjak.png" id="1_48xlc"]
 [ext_resource type="Texture2D" uid="uid://bytkvibhq232p" path="res://Assets/Go Mooks.png" id="2_1ehe0"]
 
@@ -31,6 +32,7 @@ alignment = 1
 layout_mode = 2
 text = "Play"
 icon_alignment = 1
+script = ExtResource("1_1ehe0")
 
 [node name="Options" type="Button" parent="VBoxContainer" unique_id=1298013910]
 layout_mode = 2
@@ -68,3 +70,5 @@ text = "✡"
 position = Vector2(1605, 889.00006)
 scale = Vector2(0.63, 0.63)
 texture = ExtResource("2_1ehe0")
+
+[connection signal="pressed" from="VBoxContainer/Play" to="VBoxContainer/Play" method="_on_pressed"]
