@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cmsha1ratyv0q"]
 
-[ext_resource type="Texture2D" uid="uid://cxtrfp2ujv7ss" path="res://front_facing_businessman_soyjak.png" id="1_06t4h"]
-[ext_resource type="Texture2D" uid="uid://bytkvibhq232p" path="res://Go Mooks.png" id="2_7vrkn"]
+[ext_resource type="Texture2D" uid="uid://cxtrfp2ujv7ss" path="res://Assets/front_facing_businessman_soyjak.png" id="1_48xlc"]
+[ext_resource type="Texture2D" uid="uid://bytkvibhq232p" path="res://Assets/Go Mooks.png" id="2_1ehe0"]
 
 [node name="Main Menu" type="Control" unique_id=281104599]
 layout_mode = 3
@@ -56,7 +56,7 @@ vertical_alignment = 1
 [node name="FrontFacingBusinessmanSoyjak" type="Sprite2D" parent="." unique_id=987198420]
 position = Vector2(373, 835.00006)
 scale = Vector2(1.545, 1.545)
-texture = ExtResource("1_06t4h")
+texture = ExtResource("1_48xlc")
 
 [node name="Label" type="Label" parent="." unique_id=1318595147]
 layout_mode = 0
@@ -67,4 +67,4 @@ text = "✡"
 [node name="GoMooks" type="Sprite2D" parent="." unique_id=646455305]
 position = Vector2(1605, 889.00006)
 scale = Vector2(0.63, 0.63)
-texture = ExtResource("2_7vrkn")
+texture = ExtResource("2_1ehe0")

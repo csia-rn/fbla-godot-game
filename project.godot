@@ -13,7 +13,7 @@ config_version=5
 config/name="FBLA_Godot_game"
 run/main_scene="uid://cmsha1ratyv0q"
 config/features=PackedStringArray("4.7", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://Assets/icon.svg"
 
 [display]
 

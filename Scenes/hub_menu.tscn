@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://0gt5e73irub1"]
+
+[node name="Control" type="Control" unique_id=417365266]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BoxContainer" type="BoxContainer" parent="." unique_id=457608927]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+alignment = 1
+vertical = true
+
+[node name="Training" type="Button" parent="BoxContainer" unique_id=226872953]
+layout_mode = 2
+offset_transform_enabled = true
+text = "Training"
+icon_alignment = 1
+
+[node name="Upgrade" type="Button" parent="BoxContainer" unique_id=1429491105]
+layout_mode = 2
+text = "Upgrade Equipment"
+
+[node name="Shop" type="Button" parent="BoxContainer" unique_id=433287034]
+layout_mode = 2
+text = "Item Shop"
+
+[node name="Match" type="Button" parent="BoxContainer" unique_id=1642476694]
+layout_mode = 2
+text = "Next match"
