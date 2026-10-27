@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://di3wgcs1aleqy"]
+
+[ext_resource type="Script" uid="uid://snxg5wsdie00" path="res://Scripts/front_end/back.gd" id="1_xysl7"]
+
+[node name="shop_menu" type="Node2D" unique_id=984784417]
+
+[node name="back" type="Button" parent="." unique_id=1402196807]
+offset_left = 42.0
+offset_top = 27.0
+offset_right = 125.0
+offset_bottom = 76.0
+text = "back"
+script = ExtResource("1_xysl7")
+
+[connection signal="pressed" from="back" to="back" method="_on_pressed"]

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cmsha1ratyv0q"]
 
-[ext_resource type="Script" uid="uid://b8dfqwi7tw761" path="res://Scripts/play.gd" id="1_1ehe0"]
+[ext_resource type="Script" uid="uid://b8dfqwi7tw761" path="res://Scripts/front_end/play.gd" id="1_1ehe0"]
 [ext_resource type="Texture2D" uid="uid://cxtrfp2ujv7ss" path="res://Assets/front_facing_businessman_soyjak.png" id="1_48xlc"]
 [ext_resource type="Texture2D" uid="uid://bytkvibhq232p" path="res://Assets/Go Mooks.png" id="2_1ehe0"]
 

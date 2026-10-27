@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://0gt5e73irub1"]
 
-[ext_resource type="Script" uid="uid://bon4cabp57que" path="res://Scripts/training.gd" id="1_3cwri"]
-[ext_resource type="Script" uid="uid://tnh5oeawx0v8" path="res://Scripts/upgrade.gd" id="2_p4frh"]
+[ext_resource type="Script" uid="uid://bon4cabp57que" path="res://Scripts/front_end/training.gd" id="1_3cwri"]
+[ext_resource type="Script" uid="uid://tnh5oeawx0v8" path="res://Scripts/front_end/upgrade.gd" id="2_p4frh"]
 
 [node name="Control" type="Control" unique_id=417365266]
 layout_mode = 3
