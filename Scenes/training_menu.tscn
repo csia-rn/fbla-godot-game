@@ -1,3 +1,26 @@
 [gd_scene format=3 uid="uid://dxe7k2klkpr24"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
+size = Vector2(332.5, 299.5)
+
 [node name="Node2D" type="Node2D" unique_id=1130594256]
+
+[node name="Button" type="Button" parent="." unique_id=2103376913]
+offset_left = 42.0
+offset_top = 27.0
+offset_right = 125.0
+offset_bottom = 76.0
+text = "back"
+
+[node name="Button2" type="Button" parent="." unique_id=1910326345]
+offset_left = 923.0
+offset_top = 278.0
+offset_right = 1024.0
+offset_bottom = 309.0
+text = "Train Player"
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1013466236]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=267696466]
+position = Vector2(974, 479)
+shape = SubResource("RectangleShape2D_g4v7s")

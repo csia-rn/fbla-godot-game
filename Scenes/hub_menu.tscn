@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://0gt5e73irub1"]
 
+[ext_resource type="Script" uid="uid://bon4cabp57que" path="res://Scripts/training.gd" id="1_3cwri"]
+
 [node name="Control" type="Control" unique_id=417365266]
 layout_mode = 3
 anchors_preset = 15
@@ -20,6 +22,7 @@ layout_mode = 2
 offset_transform_enabled = true
 text = "Training"
 icon_alignment = 1
+script = ExtResource("1_3cwri")
 
 [node name="Upgrade" type="Button" parent="BoxContainer" unique_id=1429491105]
 layout_mode = 2
@@ -32,3 +35,5 @@ text = "Item Shop"
 [node name="Match" type="Button" parent="BoxContainer" unique_id=1642476694]
 layout_mode = 2
 text = "Next match"
+
+[connection signal="pressed" from="BoxContainer/Training" to="BoxContainer/Training" method="_on_pressed"]
